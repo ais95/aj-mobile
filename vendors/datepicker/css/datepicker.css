@@ -1,0 +1,97 @@
+.ui-datepicker .ui-datepicker-header{
+	background-color: dodgerblue;
+	border: 0;
+	color: #ffffff;
+	font-size: 18px;
+	padding: 7px;
+	text-transform: Capitalize;
+	border-radius: 0;
+}
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next{
+	top: 9px;
+	margin: 0 18px;
+	width: 24px;
+	height: 24px;
+	background-color: transparent;
+	border: 2px solid #ffffff;
+	border-radius: 50%;
+}
+.ui-datepicker .ui-datepicker-prev:after,
+.ui-datepicker .ui-datepicker-next:after{
+	position: absolute;
+	content: "";
+	top: 7px;
+	border: 3px solid #ffffff;
+	width: 7px;
+	height: 7px;
+	border-radius: 3px;
+	transform: rotate(45deg);
+}
+
+.ui-datepicker .ui-datepicker-prev:after{
+	left: 8px;
+	border-top-width: 0;
+	border-right-width: 0;
+}
+.ui-datepicker .ui-datepicker-next:after{
+	right: 8px;
+	border-bottom-width: 0;
+	border-left-width: 0;
+}
+
+.ui-datepicker th{
+	font-weight: 600;
+	color: dodgerblue;
+}
+.ui-datepicker{
+	left: 0!important;
+	right: 0;
+    top: 130px!important;
+	overflow: hidden;
+	width: 100%;
+    padding-bottom: 18px!important;
+}
+.ui-widget.ui-widget-content{
+	background-color: #f9f9f9;
+	border: 0;
+	border-radius: 0;
+	padding: 0;
+	margin-top: 6px;
+	overflow: hidden;
+}
+.ui-state-default, 
+.ui-widget-content .ui-state-default, 
+.ui-widget-header .ui-state-default, 
+.ui-button,
+html .ui-button.ui-state-disabled:hover, 
+html .ui-button.ui-state-disabled:active{
+	text-align: center;
+	font-weight: bolder;
+	font-size: 12px;
+	width: 32px;
+	height: 32px;
+	line-height: 28px;
+	border-color: transparent;
+	border-radius: 50%;
+	background-color: #ffffff;
+	color: gray;
+	display: block;
+	margin: 3px auto;
+}
+.ui-state-highlight, 
+.ui-widget-content .ui-state-highlight, 
+.ui-widget-header .ui-state-highlight{
+	border-color: dodgerblue;
+	color: dodgerblue;
+}
+
+.ui-state-active, 
+.ui-widget-content .ui-state-active, 
+.ui-widget-header .ui-state-active, 
+a.ui-button:active, 
+.ui-button:active, 
+.ui-button.ui-state-active:hover{
+	background-color: dodgerblue;
+	color: #ffffff;
+}
